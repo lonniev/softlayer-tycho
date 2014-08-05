@@ -10,11 +10,16 @@
 			"jdk_version": "7",
 			"oracle": { "accept_oracle_download_terms": true }
 		}
-    },
+        },
 	"override_attributes": {
 		"eclipse": {
 			"version": "luna",
-			"arch": "x86_64"
+			"arch": "x86_64",
+
+			"plugins": [
+                           {"http://download.eclipse.org/releases/luna": "org.eclipse.egit.feature.group"},
+                           {"http://download.eclipse.org/technology/m2e/releases": "org.eclipse.m2e.feature.feature.group"}
+                                   ]
 		}
 	},
 	"run_list": [
