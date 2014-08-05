@@ -46,7 +46,7 @@ GIT
 GIT
   remote: https://github.com/lonniev/add-vagrantuser
   ref: master
-  sha: 678c5118f949d4ccd6a5652b06bd7de83ea88eb6
+  sha: 6a6733188c9c14ba97efe7d0478aeecda6e3960c
   specs:
     add-vagrantuser (0.1.0)
 
@@ -68,9 +68,19 @@ GIT
       apt (>= 0.0.0)
       yum (>= 0.0.0)
 
+GIT
+  remote: https://github.com/trywildcard/chef-chrome
+  ref: master
+  sha: 057359f8a56c7a84fabe2440517c4d9b1e3b25d9
+  specs:
+    chef-chrome (1.0.0)
+      apt (>= 0.0.0)
+      yum (>= 0.0.0)
+
 DEPENDENCIES
   add-vagrantuser (>= 0)
   apt (>= 0)
+  chef-chrome (>= 0)
   eclipse (>= 0)
   git (>= 0)
   java (>= 0)

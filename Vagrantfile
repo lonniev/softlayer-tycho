@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.define "sl-tycho" do |cci|
     #See http://docs.vagrantup.com/v2/vagrantfile/index.html
-    cci.vm.box                        = "ju2wheels/SL_UBUNTU_LATEST_64_temp"
+    cci.vm.box                        = "ju2wheels/SL_UBUNTU_LATEST_64"
     cci.vm.hostname                   = "sl-tycho"
 
     cci.vm.usable_port_range          = 2200..3050
@@ -75,6 +75,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.environments_path = "./environments"
     chef.add_recipe "apt"
     chef.add_recipe "add-vagrantuser"
+    chef.add_recipe "chef-chrome"
     chef.add_recipe "ubuntu-xfce4"
     chef.add_recipe "xrdp"
     chef.add_role "eclipse-developer"
