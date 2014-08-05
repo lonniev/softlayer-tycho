@@ -74,6 +74,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.roles_path = "./roles"
     chef.environments_path = "./environments"
     chef.add_recipe "apt"
+    chef.add_recipe "add-vagrantuser"
     chef.add_recipe "ubuntu-xfce4"
     chef.add_recipe "xrdp"
     chef.add_role "eclipse-developer"

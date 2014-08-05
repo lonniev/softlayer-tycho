@@ -5,6 +5,9 @@ site 'http://community.opscode.com/api/v1'
 
 cookbook 'apt'
 
+cookbook 'add-vagrantuser',
+   :github => 'lonniev/add-vagrantuser'
+   
 cookbook 'ubuntu-desktop',
    :github => 'lonniev/ubuntu-desktop'
 
