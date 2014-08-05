@@ -1,0 +1,24 @@
+{
+	"name": "eclipse-developer",
+	"json_class": "Chef::Role",
+	"description": "Role for Eclipse Developers",
+	"chef_type": "role",
+
+	"default_attributes": {
+		"java": {
+			"install_flavor": "oracle",
+			"jdk_version": "7",
+			"oracle": { "accept_oracle_download_terms": true }
+		}
+    },
+	"override_attributes": {
+		"eclipse": {
+			"version": "luna",
+			"arch": "x86_64"
+		}
+	},
+	"run_list": [
+		"recipe[java]",
+		"recipe[eclipse]"
+	]
+}

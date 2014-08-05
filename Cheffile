@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'apt'
+
+cookbook 'ubuntu-desktop',
+   :github => 'lonniev/ubuntu-desktop'
+
+cookbook 'ubuntu-xfce4',
+   :github => 'lonniev/ubuntu-xfce4'
+
+cookbook 'xrdp'
+
+cookbook 'java'
+
+cookbook 'eclipse',
+   :github => 'geocent-cookbooks/eclipse'
