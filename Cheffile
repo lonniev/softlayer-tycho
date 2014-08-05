@@ -18,5 +18,7 @@ cookbook 'xrdp'
 
 cookbook 'java'
 
+cookbook 'maven'
+
 cookbook 'eclipse',
    :github => 'geocent-cookbooks/eclipse'
