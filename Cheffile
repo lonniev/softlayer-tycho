@@ -20,5 +20,7 @@ cookbook 'java'
 
 cookbook 'maven'
 
+cookbook 'git'
+
 cookbook 'eclipse',
    :github => 'geocent-cookbooks/eclipse'

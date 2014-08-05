@@ -19,6 +19,7 @@
 	},
 	"run_list": [
 		"recipe[java]",
+		"recipe[git]",
 		"recipe[eclipse]",
 		"recipe[maven]"
 	]
