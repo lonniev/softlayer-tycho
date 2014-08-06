@@ -46,7 +46,7 @@ GIT
 GIT
   remote: https://github.com/lonniev/add-vagrantuser
   ref: master
-  sha: 6a6733188c9c14ba97efe7d0478aeecda6e3960c
+  sha: be2076f0708805fbe8f2c635dad91ddfe34be127
   specs:
     add-vagrantuser (0.1.0)
 
