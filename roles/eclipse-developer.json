@@ -21,12 +21,14 @@
                            { "http://download.eclipse.org/technology/m2e/releases": "org.eclipse.m2e.feature.feature.group" },
                         { "http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-egit/0.14.0/N/0.14.0.201406241643": "org.sonatype.m2e.egit.feature.feature.group" }
                                    ]
-		}
+		},
+        "get-gitrepos": {}
 	},
 	"run_list": [
 		"recipe[java]",
 		"recipe[git]",
 		"recipe[eclipse]",
-		"recipe[maven]"
+		"recipe[maven]",
+        "recipe[get-gitrepos]"
 	]
 }

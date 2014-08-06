@@ -17,6 +17,9 @@ cookbook 'ubuntu-desktop',
 cookbook 'ubuntu-xfce4',
    :github => 'lonniev/ubuntu-xfce4'
 
+cookbook 'get-gitrepos',
+   :github => 'lonniev/get-gitrepos'
+
 cookbook 'xrdp'
 
 cookbook 'java'
