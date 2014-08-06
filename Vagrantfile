@@ -79,6 +79,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe "ubuntu-xfce4"
     chef.add_recipe "xrdp"
     chef.add_role "eclipse-developer"
-
+    
+    # apt update needs to occur first not just eventually    
+    chef.json = { "apt" => {"compiletime" => true} }
   end
 end

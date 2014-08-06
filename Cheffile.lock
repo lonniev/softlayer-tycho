@@ -46,14 +46,14 @@ GIT
 GIT
   remote: https://github.com/lonniev/add-vagrantuser
   ref: master
-  sha: be2076f0708805fbe8f2c635dad91ddfe34be127
+  sha: ff168455ed8bbc926cb1391a1af271bd3feaeb9e
   specs:
     add-vagrantuser (0.1.0)
 
 GIT
   remote: https://github.com/lonniev/get-gitrepos
   ref: master
-  sha: f6eb5e8229496526169144aa4914b84a72b9c52c
+  sha: 39b98f37acd835b72af9f85575bc28e0db0f6ff7
   specs:
     get-gitrepos (0.1.0)
 
