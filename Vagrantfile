@@ -75,12 +75,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.environments_path = "./environments"
     chef.add_recipe "apt"
     chef.add_recipe "add-vagrantuser"
-    chef.add_recipe "chef-chrome"
+    chef.add_recipe "ubuntu-tightvnc"
     chef.add_recipe "ubuntu-xfce4"
+    chef.add_recipe "chef-chrome"
     chef.add_recipe "xrdp"
     chef.add_role "eclipse-developer"
     
     # apt update needs to occur first not just eventually    
-    chef.json = { "apt" => {"compiletime" => true} }
+    chef.json = { "apt" => {"compile_time_update" => true} }
   end
 end

@@ -14,6 +14,9 @@ cookbook 'chef-chrome',
 cookbook 'ubuntu-desktop',
    :github => 'lonniev/ubuntu-desktop'
 
+cookbook 'ubuntu-tightvnc',
+   :github => 'lonniev/ubuntu-tightvnc'
+
 cookbook 'ubuntu-xfce4',
    :github => 'lonniev/ubuntu-xfce4'
 

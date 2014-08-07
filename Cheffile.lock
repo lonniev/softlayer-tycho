@@ -46,14 +46,14 @@ GIT
 GIT
   remote: https://github.com/lonniev/add-vagrantuser
   ref: master
-  sha: ff168455ed8bbc926cb1391a1af271bd3feaeb9e
+  sha: 745cacc01b5923664844b08b282d4186c6a89efd
   specs:
     add-vagrantuser (0.1.0)
 
 GIT
   remote: https://github.com/lonniev/get-gitrepos
   ref: master
-  sha: 39b98f37acd835b72af9f85575bc28e0db0f6ff7
+  sha: 72adf74c83ec8ca1b9698061330ae81835e7f5b4
   specs:
     get-gitrepos (0.1.0)
 
@@ -67,9 +67,18 @@ GIT
       yum (>= 0.0.0)
 
 GIT
+  remote: https://github.com/lonniev/ubuntu-tightvnc
+  ref: master
+  sha: f39cd5678afa2711cd6d4bf29bba780f08d72718
+  specs:
+    ubuntu-tightvnc (0.1.0)
+      apt (>= 0.0.0)
+      yum (>= 0.0.0)
+
+GIT
   remote: https://github.com/lonniev/ubuntu-xfce4
   ref: master
-  sha: 62635d47ad6acb88bee2d35766c1036981eccc40
+  sha: 4e9e760629c8fa47f34c0b046539e79ca100fb61
   specs:
     ubuntu-xfce4 (0.1.0)
       apt (>= 0.0.0)
@@ -94,6 +103,7 @@ DEPENDENCIES
   java (>= 0)
   maven (>= 0)
   ubuntu-desktop (>= 0)
+  ubuntu-tightvnc (>= 0)
   ubuntu-xfce4 (>= 0)
   xrdp (>= 0)
 
