@@ -46,14 +46,14 @@ GIT
 GIT
   remote: https://github.com/lonniev/add-vagrantuser
   ref: master
-  sha: 745cacc01b5923664844b08b282d4186c6a89efd
+  sha: ff15b2f9799c1169e3cd4603b0eda360a4f022f9
   specs:
     add-vagrantuser (0.1.0)
 
 GIT
   remote: https://github.com/lonniev/get-gitrepos
   ref: master
-  sha: 72adf74c83ec8ca1b9698061330ae81835e7f5b4
+  sha: 9e590282342bcae12a699ff6518489285f319130
   specs:
     get-gitrepos (0.1.0)
 
@@ -78,7 +78,7 @@ GIT
 GIT
   remote: https://github.com/lonniev/ubuntu-xfce4
   ref: master
-  sha: 4e9e760629c8fa47f34c0b046539e79ca100fb61
+  sha: c9b3b0ca3178eefe4b1386b3bdc3e23e61f824d0
   specs:
     ubuntu-xfce4 (0.1.0)
       apt (>= 0.0.0)
